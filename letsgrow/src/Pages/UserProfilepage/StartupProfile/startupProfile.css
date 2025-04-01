@@ -1,0 +1,126 @@
+#startup-profile-content
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* top area */
+#startup-profile-top-area
+{
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#startup-profile-dashboard-button button
+{
+    background-color: #AEBBDE;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+#startup-profile-dashboard-button :hover
+{
+    background-color: #b1b8f8;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* middle area */
+#startup-profile-middle-area
+{
+    width: 100%;
+    margin-top: -80px;
+    padding: 15px;
+    display: flex;
+    padding-left: 200px;
+}
+
+#startup-profile-photo img
+{
+    border: 20px solid #AEBBDE;
+    border-radius: 10px;
+    width: 250px;
+}
+
+#startup-profile-details
+{
+    padding-left: 100px;
+    text-align: left;
+    color: rgb(10, 77, 139);
+    font-family: Judson;
+}
+
+#startup-profile-details h1,
+#startup-profile-details h2,
+#startup-profile-details button {
+  margin: 5px 0;
+}
+
+#startup-user-name
+{
+    color: #000;
+}
+
+#startup-edit-button
+{
+    background-color: #AEBBDE;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#startup-edit-button:hover {
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* bottom area */
+#startup-profile-bottom-area
+{
+    width: 100%;
+    text-align: left;
+    padding-left: 200px;
+}
+
+#add-gig
+{
+    border: 3px solid black;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#add-new-gig 
+{
+    text-align: center;
+    background-color: rgb(136, 136, 136);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
