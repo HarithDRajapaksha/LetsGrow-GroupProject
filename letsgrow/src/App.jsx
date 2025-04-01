@@ -11,6 +11,7 @@ import StartupDashboard from './Pages/Dashboards/Startup/StartupDashboard'
 import InvestorProfile from './Pages/UserProfilepage/InvestorProfile/InvestorProfile'
 import RatingPage from './Pages/Rating page/RatingPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import InvestorDashboard from './Pages/Dashboards/Investors/InvestorDashboard'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/startup-profile' element={<StartupProfile/>}/>
           <Route path="/startup-dashboard" element={<StartupDashboard/>}/>
           <Route path="/investor-profile" element={<InvestorProfile/>}/>
+          <Route path="/investor-dashboard" element={<InvestorDashboard/>}/>
           <Route path="/rating-page" element={<RatingPage/>}/>
           <Route path="/register" element={<RegistrationPage />} /> 
           <Route path="/login" element={<LoginPage />} /> 
