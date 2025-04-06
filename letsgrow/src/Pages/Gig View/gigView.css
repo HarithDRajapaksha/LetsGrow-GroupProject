@@ -1,0 +1,82 @@
+/* Add to existing styles */
+.gig-view-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gig-header {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gig-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gig-meta {
+    display: flex;
+    gap: 1rem;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+  }
+  
+  .main-content section {
+    margin-bottom: 3rem;
+  }
+  
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .detail-grid div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail-grid label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 0.3rem;
+  }
+  
+  .feedback-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-header .type {
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .feedback-header .type.negative {
+    color: #c0392b;
+    background: #fdedec;
+  }
+  
+  .feedback-header .type.positive {
+    color: #27ae60;
+    background: #e8f6f3;
+  }

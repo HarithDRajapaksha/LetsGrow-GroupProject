@@ -1,0 +1,72 @@
+.profile-settings {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  .edit-icon, .view-icon, .save-icon, .cancel-icon {
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    transition: 0.3s;
+  }
+  
+  .edit-icon:hover {
+    color: #347CCB;
+  }
+  
+  .save-icon:hover {
+    color: #45a049;
+  }
+  
+  .cancel-icon:hover {
+    color: #d63428;
+  }
+  
+  .edit-dropdown {
+    flex-grow: 1;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
