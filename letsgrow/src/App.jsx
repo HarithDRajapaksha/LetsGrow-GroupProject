@@ -12,6 +12,10 @@ import InvestorProfile from './Pages/UserProfilepage/InvestorProfile/InvestorPro
 import RatingPage from './Pages/Rating page/RatingPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import InvestorDashboard from './Pages/Dashboards/Investors/InvestorDashboard'
+import GigView from './Pages/Gig View/GigView'
+import CreateNewGig from './Pages/UserProfilepage/StartupProfile/Create New Gig/CreateNewGis'
+import ProfileSettings from './Pages/UserProfilepage/Profile Settings/ProfileSettings'
+import AuthForm from './Pages/UserProfilepage/Profile Settings/AuthForm'
 
 function App() {
 
@@ -21,8 +25,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Landingpage />} />
           <Route path="/team" element={<OurTeam/>} />
+          <Route path="/profile-settings" element={<ProfileSettings />} />
+          <Route path="/auth-form" element={<AuthForm/>}/>
           <Route path='/startup-profile' element={<StartupProfile/>}/>
           <Route path="/startup-dashboard" element={<StartupDashboard/>}/>
+          <Route path="/gig-view" element={<GigView/>}/>
+          <Route path="/create-new-gig" element={<CreateNewGig/>}/>
           <Route path="/investor-profile" element={<InvestorProfile/>}/>
           <Route path="/investor-dashboard" element={<InvestorDashboard/>}/>
           <Route path="/rating-page" element={<RatingPage/>}/>
